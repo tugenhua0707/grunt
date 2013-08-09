@@ -1,7 +1,7 @@
 grunt
 =====
 
-使用gruntjs构建web程序
+JS项目构建工具Grunt实践
   
     下面来介绍下如何用grunt合并，压缩，处理依赖的js文件。
     大概步骤有如下：
