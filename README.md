@@ -51,6 +51,7 @@ grunt
     压缩domop.js为domop.min.js
     这两个文件都放在dest目录下
   最终的Gruntfile.js如下:
+  
       module.exports = function(grunt) {
         // 配置
         grunt.initConfig({
@@ -78,6 +79,7 @@ grunt
                   }
               }
           });
+          
           // 载入concat和uglify插件，分别对于合并和压缩
       	  grunt.loadNpmTasks('grunt-cmd-transport');
           grunt.loadNpmTasks('grunt-contrib-concat');
